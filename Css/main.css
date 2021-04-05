@@ -1,0 +1,35 @@
+
+        body {background-color: rgb(255, 255, 255);
+        color:rgb(255, 1, 1);
+        text-align: center;
+            
+   
+        }
+          .btn{
+            width: 120px;
+            margin: 0 auto;
+            color: white;
+            text-align: center;
+            font-family: arial black;
+            font-size: 20px;
+            text-transform: uppercase;
+            border:none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 16%    
+        }
+        .btn-red{
+            
+            background-color: red;
+            box-shadow:rgb(126, 0, 0) 0 4px 0;
+        }
+        .btn-red:hover{
+            background-color: rgb(153, 4, 4);
+            box-shadow:rgb(126, 0, 0) 0 4px 0;
+        }
+        .btn-red:active{
+            position:relative;
+            top:5px
+             
+        }
+    
