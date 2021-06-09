@@ -29,8 +29,8 @@
         }
         .btn-red:active{
             position:relative;
-            top:5px
-             
+            transform: translateY(3px);
+            transition: 0.10s ease-in-out;
         }
         main{
             display: flex;
